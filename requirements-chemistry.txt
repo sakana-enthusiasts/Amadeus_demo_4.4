@@ -1,0 +1,2 @@
+# Optional 2D descriptor backend. Verified on PyPI; not part of default requirements.
+mordredcommunity==2.0.7

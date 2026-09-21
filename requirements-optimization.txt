@@ -1,0 +1,6 @@
+# 未启用的 GP/BoTorch 插件所需可选环境；不启用任何生产功能。
+-r requirements.txt
+botorch==0.18.1
+gpytorch==1.15.2
+linear_operator==0.6.1
+torch==2.13.0+cpu

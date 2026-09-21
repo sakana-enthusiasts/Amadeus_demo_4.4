@@ -1,0 +1,5 @@
+[tool.pytest.ini_options]
+python_files = ["*测试.py"]
+testpaths = ["测试"]
+addopts = "-q"
+markers = ["optimization: 显式可选优化环境依赖检查", "integration: 依赖明确本地论文/缓存fixture，输出仍隔离", "external: 外部服务测试，默认不运行"]

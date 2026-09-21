@@ -1,0 +1,21 @@
+# 搜索边界，与 Git 白名单及实际写入路径各司其职。
+.git/
+.venv/
+__pycache__/
+.pytest_cache/
+.cache/
+审计结果/
+运行记录/
+模型保存/
+骨架检查/
+数据/
+.tmp_*/
+.target_profile*tmp*/
+*.pyc
+*.zip
+*.sdz
+*.inspect.ndjson
+.env
+.env.*
+.streamlit/secrets.toml
+测试/benchmark工具/
